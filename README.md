@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://https://misfarbackend.https://backend-km2p.onrender.com.com:3000](http://https://misfarbackend.https://backend-km2p.onrender.com.com:3000) to view it in your browser.
+Open [http://https://misfarbackend.https://backend-km2p.https://backend-km2p.onrender.com.com.com:3000](http://https://misfarbackend.https://backend-km2p.https://backend-km2p.onrender.com.com.com:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.

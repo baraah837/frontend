@@ -5,7 +5,7 @@ import { FaUserCircle, FaPen, FaCamera } from "react-icons/fa";
 import { userAPI, setUser } from "./services/api";
 import { useLang } from "./i18n/LanguageContext";
 
-const BACKEND = process.env.REACT_APP_API_URL?.replace("/api", "") || "http://https://misfarbackend.https://backend-km2p.onrender.com.com:5000";
+const BACKEND = process.env.REACT_APP_API_URL?.replace("/api", "") || "http://https://misfarbackend.https://backend-km2p.https://backend-km2p.onrender.com.com.com:5000";
 const resolvePhoto = (url) => {
   if (!url) return null;
   if (url.startsWith("data:") || url.startsWith("http")) return url;

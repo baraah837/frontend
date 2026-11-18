@@ -28,7 +28,7 @@ function Profile({ onNavigate = () => { }, profileData, onLogout = () => { } }) 
   const [loadingSection, setLoadingSection] = useState(false);
   const BACKEND =
     process.env.REACT_APP_API_URL?.replace("/api", "") ||
-    "http://https://misfarbackend.https://backend-km2p.onrender.com.com:5000";
+    "http://https://misfarbackend.https://backend-km2p.https://backend-km2p.onrender.com.com.com:5000";
   const [currentProfile, setCurrentProfile] = useState(profileData || {});
   useEffect(() => {
     userAPI

@@ -253,7 +253,7 @@ function AdminBusiness({ C }) {
     const [trails, reloadTrails] = useLoad(api.trails.list);
     const opts = (trails || []).map((t) => ({ v: t.id, l: t.title }));
     const trailName = (id) => (trails || []).find((t) => t.id === id)?.title || "—";
-    const [dests] = useLoad(() => fetch(`${process.env.REACT_APP_API_URL || "http://https://misfarbackend.https://backend-km2p.onrender.com.com:5000/api"}/destinations?limit=50`).then((r) => r.json()));
+    const [dests] = useLoad(() => fetch(`${process.env.REACT_APP_API_URL || "http://https://misfarbackend.https://backend-km2p.https://backend-km2p.onrender.com.com.com:5000/api"}/destinations?limit=50`).then((r) => r.json()));
     return (
       <>
         <Editor title="Learning trails" crud={api.trails} onChanged={reloadTrails} defaults={{ is_active: true, sort_order: 0 }}
