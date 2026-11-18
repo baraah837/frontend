@@ -1,7 +1,7 @@
 // src/services/api.js
 // Central API service for Misfar – connects to the Express backend
 
-const BASE_URL = process.env.REACT_APP_API_URL || "https://backend-km2p.onrender.com";
+const BASE_URL = process.env.REACT_APP_API_URL || "https://backend-km2p.onrender.com/api";
 
 // ── Token helpers ─────────────────────────────────────────────
 export const getToken = () => localStorage.getItem("misfar_token");
