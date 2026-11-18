@@ -1,6 +1,6 @@
 // src/config.js
 // Frontend-only constants. Nothing here changes the backend API.
-const RAW_API = process.env.REACT_APP_API_URL || "http://https://misfarbackend.https://backend-km2p.https://backend-km2p.onrender.com.com.com:5000/api";
+const RAW_API = process.env.REACT_APP_API_URL || "https://backend-km2p.onrender.com";
 
 export const API_BASE = RAW_API;
 // Origin that serves /uploads (profile + destination photos)
